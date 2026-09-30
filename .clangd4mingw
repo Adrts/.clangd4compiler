@@ -1,0 +1,15 @@
+CompileFlags:
+  Add:
+    # - -std=xxx        C语言标准
+    # - -D xxx=xxx      预定义宏
+    # - -U xxx          取消宏定义
+    # - -I xxx          普通头文件搜索目录
+    # - -include xxx.h  全局预包含头文件
+    # - -isystem xxx    系统头文件搜索目录
+    # - -target xxx     目标架构
+    # - -mcpu=xxx       内核类型
+    # - -ferror-limit=X 错误数量上限，0=不限制报错数量
+    - -ferror-limit=0
+  Remove: []
+  CompilationDatabase: ./build/Debug
+  Compiler: D:\Toolchains\tdm64-gcc-10.3.0-2\bin\gcc.exe  #GCC 编译器路径
